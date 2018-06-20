@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.campus.dao.GoodsDao">
+    <insert id="addGoods"  parameterType="goods">
+       insert  into goods(goodsTitle,userId,contact,goodsContent,goodsPrice,goodsImg,goodsCategory.createTime)
+       values(#{goodsTitle},#{user.userId},#{contact},#{goodsContent},#{goodsPrice},#{goodsImg},#{goodsCategory}
+       ,#{createTime}
+       )
+    </insert>
+
+    <select id="queryGoods" resultType="goods">
+        select 
+          <include refid="goodsDetail"/>
+         from goods a,users b where a.userId = b.userId
+    </select>
+
+    <update id="changeGoods" parameterType="goods">
+        update goods
+        <set>
+            <if test="goodsTitle !=null">
+                goodsTitle = #{goodsTitle},
+            </if>
+            <if test="goodsContent != null">
+              goodsContent = #{goodsContent},
+            </if>
+            <if test="contact !=null">
+                contact = #{contact},
+            </if>
+            <if test="goodsPrice !=null">
+                goodsPirce = #{goodsPrice}
+            </if>
+        </set>
+        where goodsId = #{goodsId}
+    </update>
+
+    <!--模糊查询-->
+    <sql id="goodsDetail">
+        goodsTitle,a.userId 'user.userId',contact,goodsContent,goodsPrice,goodsImg,goodsCategory,viewNum,b.nickName 'user.nickName'
+    </sql>
+    <select id="searchGoods" resultType="goods" >
+        select <include refid="goodsDetail"/>
+        from goods a,users b where a.userId = b.userId and  (goodsTitle like  "%"#{address}"%"  or goodsContent like "%"#{address}"%")
+    </select>
+    <select id="findByCategory" resultType="goods" parameterType="string">
+        select <include refid="goodsDetail"/>
+        from goods a,users b where a.userId = b.userId and a.goodsCategory = #{category}
+    </select>
+
+    <!--按分类查询-->
+
+
+</mapper>

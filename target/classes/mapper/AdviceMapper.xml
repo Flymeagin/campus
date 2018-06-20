@@ -1,0 +1,14 @@
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.campus.dao.AdviceDao">
+
+    <!--添加建议-->
+    <insert id="addAdvice" parameterType="advice">
+      insert into advice(userId,adviceContent,createTime) values(#{user.userId},#{adviceContent},#{createTime})
+    </insert>
+    <select id="queryAdvice" resultType="advice">
+        SELECT adviceId,adviceContent,a.userId 'user.userId' , b.nickName 'user.nickName'  FROM advice a, users b WHERE a.`userId` = b.`userId`
+    </select>
+    <select id="getCount" resultType="int">
+      select count(*) from advice where userId = #{userId}
+    </select>
+</mapper>

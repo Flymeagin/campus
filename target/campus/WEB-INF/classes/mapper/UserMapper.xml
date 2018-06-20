@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.campus.dao.UserDao">
+
+    <resultMap id="getUser" type="user">
+        <result column="userId" property="userId"/>
+        <result column="realName" property="realName"/>
+        <result column="nickName" property="nickName"/>
+        <result column="txUrl" property="txUrl"/>
+        <result column="gender" property="gender"/>
+        <result column="description" property="description"/>
+        <result column="createTime" property="createTime"/>
+        <result column="lastEditTime" property="lastEditTime"/>
+        <result column="flag" property="flag"/>
+        <collection select="getSignByUser" property="signs"  ofType="sign" column="userId" javaType="arraylist"/>
+    </resultMap>
+    <resultMap id="getSign" type="sign">
+        <result column="signId" property="signId" />
+        <result column="signContent" property="signContent" />
+    </resultMap>
+    <select id="getSignByUser" resultMap="getSign" >
+         SELECT a.signId,b.signContent FROM  userSign a,signs b WHERE a.`signId` = b.`signId` and a.userId = #{userId}
+    </select>
+    
+    <select id="exist" parameterType="user" resultMap="getUser">
+        select * from users where userId = #{userId}
+    </select>
+    
+    <insert id="login" parameterType="user">
+        insert  into users(userId,realName,nickName,txUrl,gender,description,createTime,lastEditTime,flag)
+        values(#{userId},#{realName},#{nickName},#{txUrl},#{gender},#{description},#{createTime},
+        #{lastEditTime},#{flag}
+        )
+    </insert>
+
+    <select id="queryUser" resultMap="getUser">
+        select * from users
+    </select>
+
+    <update id="changeUser" parameterType="user">
+        update  users
+        <set>
+            <if test="realName != null">
+                realName = #{realName},
+            </if>
+            <if test="description != null">
+                description = #{description},
+            </if>
+            <if test="lastEditTime != null">
+                lastEditTime = #{lastEditTime},
+            </if>
+            <if test="flag != null">
+                flag = #{flag}
+            </if>
+        </set>
+        where userId = #{userId}
+    </update>
+</mapper>
