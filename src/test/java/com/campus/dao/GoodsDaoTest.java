@@ -47,6 +47,30 @@ public class GoodsDaoTest extends BaseTest {
 
     @Test
     public void findByCategory() {
-        System.out.println(goodsDao.findByCategory("hello").size());
+        System.out.println(goodsDao.findByCategory("手机/数码").get(0).getGoodsTitle());
+    }
+
+    @Test
+    public void queryGoods1() {
+    }
+
+    @Test
+    public void changeGoods1() {
+    }
+
+    @Test
+    public void searchGoods1() {
+    }
+
+    @Test
+    public void findByCategory1() {
+    }
+
+    @Test
+    public void getGoodsByViewNum() {
+    }
+
+    @Test
+    public void getGoodsByTime() {
     }
 }

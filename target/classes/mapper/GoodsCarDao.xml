@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.campus.dao.GoodsCarDao">
+    <insert id="addGoodsToCar" parameterType="goodsCar">
+        INSERT into goodscar(goodsId,userId,createTime) values(#{goods.goodsId},#{user.userId},#{createTime})
+    </insert>
+    <delete id="removeGoodsToCar">
+        DELETE from goodscar where goodsId = #{goods.goodsId} and userId = #{user.userId}
+    </delete>
+
+    <select id="getCarByUserId" resultType="goods">
+      select a.goodsId,b.userId 'user.userId',goodsTitle,goodsContent,goodsImg,goodsPrice,
+      buyFlag,checkFlag,nickName 'user.nickName'
+      from goodscar a,goods b ,users c where b.userId = c.userId and a.goodsId = b.goodsId  and a.userId = #{userId}
+    </select>
+    <select id="getUserByGoodsId" resultType="user">
+        select a.userId 'userId',b.nickName 'nickName' b.txUrl 'txUrl' from goodscar where goodsId = #{goodsId}
+    </select>
+    <select id="isExist" resultType="goodsCar">
+        select userId "user.userId" ,goodsId "goods.goodsId" from goodscar where userId = #{userId} and goodsId = #{goodsId}
+    </select>
+    <resultMap id="goodsc" type="goodsCar">
+        <id column="carId" property="carId"/>
+        <association property="goods" javaType="goods">
+            <id property="goodsId" column="goodsId"/>
+            <result property="goodsTitle" column="goodsTitle"/>
+            <result property="goodsContent" column="goodsContent"/>
+            <result property="goodsImg" column="goodsImg"/>
+            <result property="goodsPrice" column="goodsPirce"/>
+            <result property="buyFlag" column="buyFlag"/>
+            <result property="checkFlag" column="checkFlag"/>
+        </association>
+        <association property="user" javaType="user">
+            <id property="userId" column="userId"/>
+            <result property="nickName" column="nickName"/>
+        </association>
+    </resultMap>
+</mapper>

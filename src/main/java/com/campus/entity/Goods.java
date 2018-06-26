@@ -40,7 +40,7 @@ public class Goods {
 
     private String goodsCategory;
 
-    private int buyFlag;
+    private Integer buyFlag;
 
     public Date getCreateTime() {
         return createTime;
@@ -58,11 +58,11 @@ public class Goods {
         this.goodsCategory = goodsCategory;
     }
 
-    public int getBuyFlag() {
+    public Integer getBuyFlag() {
         return buyFlag;
     }
 
-    public void setBuyFlag(int buyFlag) {
+    public void setBuyFlag(Integer buyFlag) {
         this.buyFlag = buyFlag;
     }
 
@@ -120,5 +120,23 @@ public class Goods {
 
     public void setCheckFlag(Integer checkFlag) {
         this.checkFlag = checkFlag;
+    }
+
+    @Override
+    public String toString() {
+        return "Goods{" +
+                "goodsId=" + goodsId +
+                ", goodsTitle='" + goodsTitle + '\'' +
+                ", goodsContent='" + goodsContent + '\'' +
+                ", contact='" + contact + '\'' +
+                ", goodsImg='" + goodsImg + '\'' +
+                ", goodsPrice=" + goodsPrice +
+                ", user=" + user +
+                ", viewNum=" + viewNum +
+                ", checkFlag=" + checkFlag +
+                ", createTime=" + createTime +
+                ", goodsCategory='" + goodsCategory + '\'' +
+                ", buyFlag=" + buyFlag +
+                '}';
     }
 }

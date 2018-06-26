@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.campus.dao.GoodsDao">
-    <insert id="addGoods"  parameterType="goods">
-       insert  into goods(goodsTitle,userId,contact,goodsContent,goodsPrice,goodsImg,goodsCategory.createTime)
+
+
+    <insert id="addGoods" parameterType="goods">
+       insert  into goods(goodsTitle,userId,contact,goodsContent,goodsPrice,goodsImg,goodsCategory,createTime)
        values(#{goodsTitle},#{user.userId},#{contact},#{goodsContent},#{goodsPrice},#{goodsImg},#{goodsCategory}
        ,#{createTime}
        )
     </insert>
+    <delete id="delGoodsById">
+        delete from goods where goodsId = #{goodsId} and userId = #{userId}
+    </delete>
 
     <select id="queryGoods" resultType="goods">
-        select 
-          <include refid="goodsDetail"/>
-         from goods a,users b where a.userId = b.userId
+        select
+        <include refid="goodsDetail"/>
+        from goods a,users b where a.userId = b.userId and buyFlag = 0 and checkFlag = 0 order by createTime desc
     </select>
+
 
     <update id="changeGoods" parameterType="goods">
         update goods
@@ -21,32 +27,60 @@
                 goodsTitle = #{goodsTitle},
             </if>
             <if test="goodsContent != null">
-              goodsContent = #{goodsContent},
+                goodsContent = #{goodsContent},
             </if>
             <if test="contact !=null">
                 contact = #{contact},
             </if>
             <if test="goodsPrice !=null">
-                goodsPirce = #{goodsPrice}
+                goodsPrice = #{goodsPrice}
             </if>
         </set>
-        where goodsId = #{goodsId}
+        where goodsId = #{goodsId} and userId = #{user.userId}
+    </update>
+    <update id="setBuyFlag">
+        update goods set buyFlag = 1  where goodsId =  #{goodsId} and userId = #{userId}
+    </update>
+    <update id="setViewNum">
+        update goods set viewNum = viewNum +1 where goodsId = #{goodsId}
     </update>
 
     <!--模糊查询-->
     <sql id="goodsDetail">
-        goodsTitle,a.userId 'user.userId',contact,goodsContent,goodsPrice,goodsImg,goodsCategory,viewNum,b.nickName 'user.nickName'
+        goodsId,goodsTitle,a.userId 'user.userId',contact,goodsContent,goodsPrice,goodsImg,goodsCategory,viewNum,b.nickName 'user.nickName'
+        ,a.createTime,buyFlag,checkFlag,b.txUrl 'user.txUrl'
     </sql>
-    <select id="searchGoods" resultType="goods" >
-        select <include refid="goodsDetail"/>
-        from goods a,users b where a.userId = b.userId and  (goodsTitle like  "%"#{address}"%"  or goodsContent like "%"#{address}"%")
+    <select id="searchGoods" resultType="goods">
+        select
+        <include refid="goodsDetail"/>
+        from goods a,users b where a.userId = b.userId and (goodsTitle like "%"#{key}"%" or goodsContent like
+        "%"#{key}"%" or  goodsCategory like  "%"#{key}"%") and buyFlag = 0 and checkFlag = 0
     </select>
-    <select id="findByCategory" resultType="goods" parameterType="string">
-        select <include refid="goodsDetail"/>
-        from goods a,users b where a.userId = b.userId and a.goodsCategory = #{category}
-    </select>
-
     <!--按分类查询-->
-
-
+    <select id="findByCategory" resultType="goods" parameterType="string">
+        select
+        <include refid="goodsDetail"/>
+        from goods a,users b where a.userId = b.userId and a.goodsCategory = #{category} and buyFlag = 0
+    </select>
+    <select id="getGoodsByViewNum" resultType="goods">
+        SELECT
+        <include refid="goodsDetail"/>
+        FROM goods a,users b WHERE a.userId = b.userId and buyFlag = 0 and checkFlag = 0 ORDER BY viewNum DESC LIMIT 10
+    </select>
+    <select id="getGoodsByTime" resultType="goods">
+        SELECT
+        <include refid="goodsDetail"/>
+        from goods a,users b where a.userId = b.userId and buyFlag = 0 and checkFlag = 0 order by createTime desc limit
+        3
+    </select>
+    <select id="getGoodsById" resultType="goods">
+        select
+        <include refid="goodsDetail"/>
+        from goods a,users b where a.userId = b.userId and goodsId = #{goodsId} and checkFlag = 0
+    </select>
+    <select id="getGoodsByUserId" resultType="goods">
+        select
+        <include refid="goodsDetail"/>
+        from goods a,users b where a.userId = b.userId and a.userId = #{userId} order by buyFlag
+    </select>
 </mapper>

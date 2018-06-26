@@ -41,13 +41,13 @@ public class AuthController {
     }
 
     @RequestMapping(value = "/changeuser", method = RequestMethod.POST)
-    public Map<String, Object> changeUser(User user,@RequestParam("s") String s) {
+    public Map<String, Object> changeUser(User user, @RequestParam("s") String s) {
         Map<String, Object> modelMap = new HashMap<>();
         try {
             ObjectMapper mapper = new ObjectMapper();
             JavaType jt = mapper.getTypeFactory().constructParametricType(ArrayList.class, Sign.class);
-            List<Sign> signs = mapper.readValue(s,jt);
-            UserExcution userExcution = userService.changeUser(user,signs);
+            List<Sign> signs = mapper.readValue(s, jt);
+            UserExcution userExcution = userService.changeUser(user, signs);
             modelMap.put("status", true);
             modelMap.put("data", userExcution);
         } catch (Exception e) {
@@ -57,19 +57,33 @@ public class AuthController {
         return modelMap;
     }
 
+
+    @RequestMapping(value = "getuserbyid", method = RequestMethod.POST)
+    public Map<String, Object> getUserById(User user) {
+        Map<String, Object> modelMap = new HashMap<>();
+        try {
+            modelMap.put("status", true);
+            modelMap.put("data", userService.exist(user));
+        } catch (Exception e) {
+            modelMap.put("status", false);
+            modelMap.put("errMsg", e.getMessage());
+        }
+        return modelMap;
+    }
+
     @RequestMapping(value = "judge", method = RequestMethod.POST)
-    public Map<String,Object> judge(User user){
-        Map<String,Object> modelMap = new HashMap<>();
+    public Map<String, Object> judge(User user) {
+        Map<String, Object> modelMap = new HashMap<>();
         User queryUser = userService.exist(user);
-        if(queryUser == null){
-            modelMap.put("status",true);
+        if (queryUser == null) {
+            modelMap.put("status", true);
             // 1 代表未注册
-            modelMap.put("code",1);
-        }else{
-            modelMap.put("status",true);
+            modelMap.put("code", 1);
+        } else {
+            modelMap.put("status", true);
             // 0 代表已注册
-            modelMap.put("code",0);
-            modelMap.put("data",queryUser);
+            modelMap.put("code", 0);
+            modelMap.put("data", queryUser);
         }
         return modelMap;
     }

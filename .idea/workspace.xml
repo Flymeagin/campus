@@ -6,7 +6,110 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eaa2123f-9423-4578-bed4-07946ec5e83d" name="Default" comment="" />
+    <list default="true" id="eaa2123f-9423-4578-bed4-07946ec5e83d" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_5.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_9.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/campus/service/GoodsCarService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/campus/service/impl/GoodsCarServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/campus/utils/MD5Utils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mapper/GoodsCarDao.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/goodsimages/1529578101290.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/goodsimages/haha.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/campus/dao/GoodsCarDaoTest.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/campus_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/campus_war_exploded.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/campus.iml" afterPath="$PROJECT_DIR$/campus.iml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/campus/controller/AuthController.java" afterPath="$PROJECT_DIR$/src/main/java/com/campus/controller/AuthController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/campus/controller/GoodsController.java" afterPath="$PROJECT_DIR$/src/main/java/com/campus/controller/GoodsController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/campus/dao/GoodsCarDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/campus/dao/GoodsCarDao.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/campus/dao/GoodsDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/campus/dao/GoodsDao.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/campus/entity/Goods.java" afterPath="$PROJECT_DIR$/src/main/java/com/campus/entity/Goods.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/campus/service/GoodsService.java" afterPath="$PROJECT_DIR$/src/main/java/com/campus/service/GoodsService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/campus/service/impl/GoodsServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/campus/service/impl/GoodsServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/GoodsMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/GoodsMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-web.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-web.xml" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/campus/dao/GoodsDaoTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/campus/dao/GoodsDaoTest.java" />
+      <change beforePath="$PROJECT_DIR$/target/campus.war" afterPath="$PROJECT_DIR$/target/campus.war" />
+      <change beforePath="$PROJECT_DIR$/target/campus/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/target/campus/META-INF/MANIFEST.MF" />
+      <change beforePath="$PROJECT_DIR$/target/campus/WEB-INF/classes/com/campus/controller/AuthController.class" afterPath="$PROJECT_DIR$/target/campus/WEB-INF/classes/com/campus/controller/AuthController.class" />
+      <change beforePath="$PROJECT_DIR$/target/campus/WEB-INF/classes/com/campus/controller/GoodsController.class" afterPath="$PROJECT_DIR$/target/campus/WEB-INF/classes/com/campus/controller/GoodsController.class" />
+      <change beforePath="$PROJECT_DIR$/target/campus/WEB-INF/classes/com/campus/dao/GoodsCarDao.class" afterPath="$PROJECT_DIR$/target/campus/WEB-INF/classes/com/campus/dao/GoodsCarDao.class" />
+      <change beforePath="$PROJECT_DIR$/target/campus/WEB-INF/classes/com/campus/dao/GoodsDao.class" afterPath="$PROJECT_DIR$/target/campus/WEB-INF/classes/com/campus/dao/GoodsDao.class" />
+      <change beforePath="$PROJECT_DIR$/target/campus/WEB-INF/classes/com/campus/entity/Goods.class" afterPath="$PROJECT_DIR$/target/campus/WEB-INF/classes/com/campus/entity/Goods.class" />
+      <change beforePath="$PROJECT_DIR$/target/campus/WEB-INF/classes/com/campus/service/GoodsService.class" afterPath="$PROJECT_DIR$/target/campus/WEB-INF/classes/com/campus/service/GoodsService.class" />
+      <change beforePath="$PROJECT_DIR$/target/campus/WEB-INF/classes/com/campus/service/impl/GoodsServiceImpl.class" afterPath="$PROJECT_DIR$/target/campus/WEB-INF/classes/com/campus/service/impl/GoodsServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/campus/WEB-INF/classes/mapper/GoodsMapper.xml" afterPath="$PROJECT_DIR$/target/campus/WEB-INF/classes/mapper/GoodsMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/target/campus/WEB-INF/classes/spring/spring-web.xml" afterPath="$PROJECT_DIR$/target/campus/WEB-INF/classes/spring/spring-web.xml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/campus/HelloWorld.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/campus/controller/AdviceController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/campus/controller/AuthController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/campus/controller/GoodsController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/campus/dao/AdviceDao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/campus/dao/GoodsCarDao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/campus/dao/GoodsDao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/campus/dao/UserDao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/campus/dao/UserSignDao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/campus/dto/GoodsExcution.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/campus/dto/JsonDto.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/campus/dto/UserExcution.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/campus/entity/Activity.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/campus/entity/Admin.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/campus/entity/Advice.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/campus/entity/Answer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/campus/entity/Comment.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/campus/entity/Company.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/campus/entity/EnRoll.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/campus/entity/EnterJob.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/campus/entity/Goods.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/campus/entity/GoodsCar.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/campus/entity/Job.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/campus/entity/Lost.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/campus/entity/Message.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/campus/entity/Problem.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/campus/entity/Recommend.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/campus/entity/Report.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/campus/entity/Sign.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/campus/entity/User.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/campus/entity/UserSign.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/campus/enums/GoodsEnum.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/campus/enums/UserEnum.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/campus/service/AdviceService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/campus/service/GoodsService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/campus/service/UserService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/campus/service/UserSignService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/campus/service/impl/AdviceServiceImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/campus/service/impl/GoodsServiceImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/campus/service/impl/UserServiceImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/campus/service/impl/UserSignServiceImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/campus/utils/HttpUtils.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/campus/utils/StringsUtils.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jdbc.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/AdviceMapper.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/GoodsMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/GoodsMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/UserSignMapper.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring/spring-dao.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring/spring-service.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring/spring-web.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/campus/BaseTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/campus/dao/AdviceDaoTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/campus/dao/GoodsDaoTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/campus/dao/UserDaoTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/campus/dao/UserSignDaoTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/campus/service/UserServiceTest.class" afterPath="" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,64 +127,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="GoodsService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/service/GoodsService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="13" column="42" lean-forward="false" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="GoodsController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/controller/GoodsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-              <folding>
-                <element signature="e#1250#1251#0" expanded="true" />
-                <element signature="e#1275#1276#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="6720">
+              <caret line="273" column="0" lean-forward="false" selection-start-line="273" selection-start-column="0" selection-end-line="273" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuthController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/controller/AuthController.java">
+      <file leaf-file-name="GoodsServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/service/impl/GoodsServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="61" column="54" selection-start-line="61" selection-start-column="54" selection-end-line="61" selection-end-column="54" />
+            <state relative-caret-position="1540">
+              <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/service/impl/UserServiceImpl.java">
+      <file leaf-file-name="MD5Utils.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/utils/MD5Utils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="74" column="41" lean-forward="true" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring-web.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="16" column="15" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="16" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoodsEnum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/enums/GoodsEnum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoodsExcution.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/dto/GoodsExcution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+            <state relative-caret-position="414">
+              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#912#913#0" expanded="true" />
-                <element signature="e#940#941#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,22 +182,21 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/campus/entity/Activity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/campus/entity/EnRoll.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/campus/entity/Recommend.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/campus/entity/Problem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/campus/entity/Answer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/campus/entity/Comment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/campus/entity/Report.java" />
-        <option value="$PROJECT_DIR$/src/test/java/BaseTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/campus/utils/StringsUtils.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/campus/service/UserServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/campus/enums/UserEnum.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/campus/dto/UserExcution.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/campus/utils/HttpUtils.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
@@ -126,7 +207,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/campus/service/AdviceService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/campus/service/impl/AdviceServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/campus/controller/AdviceController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/campus/dao/GoodsCarDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/campus/entity/Sign.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/campus/entity/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/campus/dao/UserDao.java" />
@@ -136,24 +216,35 @@
         <option value="$PROJECT_DIR$/src/main/java/com/campus/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/campus/dao/UserSignDao.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/UserSignMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/campus/controller/AuthController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/campus/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/campus/dao/UserDaoTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/campus/entity/Message.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/campus/service/ShopService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/campus/dao/ShopDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/campus/entity/Goods.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/campus/dao/GoodsDao.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/campus/dao/GoodsDaoTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/campus/enums/ShopEnum.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/campus/dto/GoodsExcution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/campus/service/GoodsService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/campus/enums/GoodsEnum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/campus/service/impl/GoodsServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/campus/controller/GoodsController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/GoodsMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/spring-web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/campus/entity/Goods.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/campus/dao/GoodsDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/campus/controller/AuthController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/selectGoods.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/campus/dao/GoodsCarDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/campus/dao/GoodsCarDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/campus/service/GoodsCarService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/campus/service/impl/GoodsCarServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/GoodsCarDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/campus/dao/GoodsDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/GoodsMapper.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-dao.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/campus/service/GoodsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/campus/controller/GoodsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/campus/service/impl/GoodsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/campus/utils/MD5Utils.java" />
       </list>
     </option>
   </component>
@@ -191,12 +282,44 @@
     <option name="width" value="1526" />
     <option name="height" value="815" />
   </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness &gt; Messages</id>
+          </State>
+          <State>
+            <id>Manifest</id>
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -237,52 +360,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="campus" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="campus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="campus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="campus" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="campus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="campus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="campus" type="462c0819:PsiDirectoryNode" />
-              <item name="enums" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="campus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="campus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="campus" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="campus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="campus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="campus" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="campus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="campus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="campus" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -292,32 +369,27 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="campus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="campus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://F:/IDEA/campus/src/main/java/com/campus/dao/UserDao.java" />
+    <property name="SearchEverywhereHistoryKey" value="selectGoo&#9;FILE&#9;file://E:/program/JAVA/IDEA/campus/src/main/java/selectGoods.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/编程相关软件/tomcat/webapps" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="D:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
@@ -333,7 +405,14 @@
       <recent name="com.campus" />
       <recent name="com.campus.dao" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\IDEA\campus\src\main\resources" />
+      <recent name="F:\IDEA\campus\src\main\resources\spring" />
+      <recent name="F:\IDEA\campus\src\main\resources\mapper" />
+      <recent name="E:\program\JAVA\IDEA\campus\src\main\webapp\goodsimages" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\program\JAVA\IDEA\campus\src\main\webapp\goodsimages" />
       <recent name="F:\IDEA\campus\src\main\resources\mapper" />
       <recent name="F:\IDEA\campus\src\main\resources" />
     </key>
@@ -357,17 +436,50 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.campus">
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="GoodsDaoTest.addGoods" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MD5Utils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.campus.utils.MD5Utils" />
       <module name="campus" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.campus.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="GoodsCarDaoTest.getCarByUserId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.campus.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <module name="campus" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.campus.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.campus.dao.GoodsCarDaoTest" />
+      <option name="METHOD_NAME" value="getCarByUserId" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="GoodsDaoTest.addGoods" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.campus.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="campus" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.campus.dao" />
@@ -377,20 +489,22 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
+      <envs />
       <patterns />
     </configuration>
     <configuration name="GoodsDaoTest.findByCategory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="campus" />
-      <extension name="coverage">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.campus.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <module name="campus" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.campus.dao" />
@@ -400,20 +514,22 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
+      <envs />
       <patterns />
     </configuration>
     <configuration name="GoodsDaoTest.queryGoods" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="campus" />
-      <extension name="coverage">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.campus.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <module name="campus" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.campus.dao" />
@@ -423,59 +539,17 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
-      <patterns />
-    </configuration>
-    <configuration name="GoodsDaoTest.searchGoods" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="campus" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.campus.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.campus.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.campus.dao.GoodsDaoTest" />
-      <option name="METHOD_NAME" value="searchGoods" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="UserDaoTest.exist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="campus" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.campus.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.campus.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.campus.dao.UserDaoTest" />
-      <option name="METHOD_NAME" value="exist" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
+      <envs />
       <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" />
@@ -485,13 +559,17 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
+      <envs />
       <patterns />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
@@ -504,19 +582,22 @@
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" />
+      <envs />
       <properties />
       <listeners />
     </configuration>
     <configuration name="campus" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.24" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
-        <artifact name="campus:war">
+        <artifact name="campus:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/campus" />
           </settings>
@@ -530,6 +611,7 @@
       <predefined_log_file id="Tomcat Manager" enabled="false" />
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="1790" />
       </RunnerSettings>
@@ -581,26 +663,31 @@
       <method>
         <option name="BuildArtifacts" enabled="true">
           <artifact name="campus:war" />
+          <artifact name="campus:war exploded" />
         </option>
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Tomcat Server.campus" />
-      <item itemvalue="JUnit.UserDaoTest.exist" />
-      <item itemvalue="JUnit.GoodsDaoTest.addGoods" />
-      <item itemvalue="JUnit.GoodsDaoTest.queryGoods" />
-      <item itemvalue="JUnit.GoodsDaoTest.searchGoods" />
-      <item itemvalue="JUnit.GoodsDaoTest.findByCategory" />
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.campus" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.GoodsDaoTest.addGoods" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.GoodsDaoTest.queryGoods" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.GoodsDaoTest.findByCategory" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.GoodsCarDaoTest.getCarByUserId" />
     </list>
     <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.GoodsDaoTest.queryGoods" />
-        <item itemvalue="JUnit.GoodsDaoTest.addGoods" />
-        <item itemvalue="JUnit.GoodsDaoTest.findByCategory" />
-        <item itemvalue="JUnit.GoodsDaoTest.searchGoods" />
-        <item itemvalue="JUnit.UserDaoTest.exist" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.GoodsDaoTest.queryGoods" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.GoodsCarDaoTest.getCarByUserId" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.GoodsDaoTest.findByCategory" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.GoodsDaoTest.addGoods" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -635,79 +722,99 @@
       <workItem from="1529155154119" duration="551000" />
       <workItem from="1529156937201" duration="2721000" />
       <workItem from="1529159816909" duration="1752000" />
+      <workItem from="1529454525737" duration="6797000" />
+      <workItem from="1529462676839" duration="1691000" />
+      <workItem from="1529499738677" duration="9574000" />
+      <workItem from="1529567724575" duration="18375000" />
+      <workItem from="1529634937382" duration="9786000" />
+      <workItem from="1529935675513" duration="1411000" />
+      <workItem from="1529945137208" duration="1951000" />
+      <workItem from="1529972393141" duration="292000" />
+      <workItem from="1529972971859" duration="182000" />
+      <workItem from="1529973339484" duration="1578000" />
+      <workItem from="1529974990146" duration="491000" />
+      <workItem from="1529975676603" duration="294000" />
+      <workItem from="1529976121589" duration="4843000" />
+      <workItem from="1529994336521" duration="122000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GoodsDaoTest_searchGoods - 2018.06.16 at 13h 42m 26s.xml">
-      <configuration name="GoodsDaoTest.searchGoods" configurationId="JUnit" />
+    <history-entry file="GoodsDaoTest_queryGoods - 2018.06.26 at 09h 09m 05s.xml">
+      <configuration name="GoodsDaoTest.queryGoods" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoodsDaoTest_searchGoods - 2018.06.16 at 13h 42m 39s.xml">
-      <configuration name="GoodsDaoTest.searchGoods" configurationId="JUnit" />
+    <history-entry file="GoodsDaoTest_queryGoods - 2018.06.26 at 09h 09m 28s.xml">
+      <configuration name="GoodsDaoTest.queryGoods" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoodsDaoTest_searchGoods - 2018.06.16 at 13h 42m 52s.xml">
-      <configuration name="GoodsDaoTest.searchGoods" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GoodsDaoTest_findByCategory - 2018.06.16 at 13h 47m 06s.xml">
+    <history-entry file="GoodsDaoTest_findByCategory - 2018.06.26 at 09h 09m 48s.xml">
       <configuration name="GoodsDaoTest.findByCategory" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoodsDaoTest_findByCategory - 2018.06.16 at 13h 47m 38s.xml">
+    <history-entry file="GoodsDaoTest_findByCategory - 2018.06.26 at 09h 15m 19s.xml">
       <configuration name="GoodsDaoTest.findByCategory" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoodsDaoTest_addGoods - 2018.06.16 at 22h 45m 45s.xml">
-      <configuration name="GoodsDaoTest.addGoods" configurationId="JUnit" />
+    <history-entry file="GoodsDaoTest_findByCategory - 2018.06.26 at 09h 16m 16s.xml">
+      <configuration name="GoodsDaoTest.findByCategory" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoodsDaoTest_addGoods - 2018.06.16 at 22h 47m 37s.xml">
-      <configuration name="GoodsDaoTest.addGoods" configurationId="JUnit" />
+    <history-entry file="GoodsDaoTest_findByCategory - 2018.06.26 at 09h 17m 36s.xml">
+      <configuration name="GoodsDaoTest.findByCategory" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoodsDaoTest_addGoods - 2018.06.16 at 22h 48m 24s.xml">
-      <configuration name="GoodsDaoTest.addGoods" configurationId="JUnit" />
+    <history-entry file="GoodsDaoTest_findByCategory - 2018.06.26 at 09h 19m 07s.xml">
+      <configuration name="GoodsDaoTest.findByCategory" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoodsDaoTest_addGoods - 2018.06.16 at 22h 48m 42s.xml">
-      <configuration name="GoodsDaoTest.addGoods" configurationId="JUnit" />
+    <history-entry file="GoodsCarDaoTest_getCarByUserId - 2018.06.26 at 09h 19m 25s.xml">
+      <configuration name="GoodsCarDaoTest.getCarByUserId" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoodsDaoTest_queryGoods - 2018.06.16 at 22h 50m 45s.xml">
+    <history-entry file="GoodsCarDaoTest_getCarByUserId - 2018.06.26 at 09h 22m 17s.xml">
+      <configuration name="GoodsCarDaoTest.getCarByUserId" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GoodsDaoTest_queryGoods - 2018.06.26 at 09h 23m 11s.xml">
       <configuration name="GoodsDaoTest.queryGoods" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76899000" />
+    <option name="totallyTimeSpent" value="134286000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.32890365" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32890365" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39977852" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49946696" weight="0.32890365" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36212623" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3022388" />
-      <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36212623" sideWeight="0.50053304" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.289823" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="控制板" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17549168" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="设计师" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24946696" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39977852" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.49946696" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.303433" sideWeight="0.49946696" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="消息" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -718,370 +825,290 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="4" />
     </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/entity/Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/entity/Recommend.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/entity/Problem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/entity/Report.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/entity/Comment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/entity/Answer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/campus/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/campus/service/UserServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="29" column="71" selection-start-line="29" selection-start-column="71" selection-end-line="29" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="67" column="32" lean-forward="true" selection-start-line="67" selection-start-column="32" selection-end-line="67" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/编程相关软件/maven/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar!/org/apache/http/client/entity/UrlEncodedFormEntity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="21" column="85" selection-start-line="21" selection-start-column="78" selection-end-line="21" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/dto/UserExcution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/enums/UserEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/utils/HttpUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/entity/Advice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/campus/dao/AdviceDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="656">
-          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AdviceMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/service/AdviceService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/controller/AdviceController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="44" column="24" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/service/impl/AdviceServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="656">
-          <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/dao/AdviceDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/dao/GoodsCarDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/entity/Sign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/entity/UserSign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/service/impl/UserSignServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/utils/StringsUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/campus/dao/UserSignDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/dao/UserSignDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="14" column="57" lean-forward="true" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/service/UserSignService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserSignMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/campus/dao/UserDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/entity/Lost.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/entity/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/dao/ShopDao.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="42" column="30" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/entity/Goods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/dao/GoodsDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/campus/dao/GoodsDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="670">
-          <caret line="49" column="66" selection-start-line="49" selection-start-column="66" selection-end-line="49" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/dto/GoodsExcution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#912#913#0" expanded="true" />
-            <element signature="e#940#941#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/enums/GoodsEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/service/GoodsService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/service/impl/GoodsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="40" column="62" selection-start-line="40" selection-start-column="62" selection-end-line="40" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        <state relative-caret-position="280">
+          <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/controller/GoodsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="7224">
+          <caret line="258" column="0" lean-forward="true" selection-start-line="258" selection-start-column="0" selection-end-line="258" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/service/impl/GoodsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1792">
+          <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/utils/MD5Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="868">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding>
-            <element signature="e#1250#1251#0" expanded="true" />
-            <element signature="e#1275#1276#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/controller/AuthController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="61" column="54" selection-start-line="61" selection-start-column="54" selection-end-line="61" selection-end-column="54" />
+        <state relative-caret-position="1073">
+          <caret line="37" column="30" lean-forward="false" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/campus/dao/GoodsDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1044">
+          <caret line="49" column="44" lean-forward="false" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/GoodsMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="40" column="45" lean-forward="true" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
+        <state relative-caret-position="2436">
+          <caret line="84" column="13" lean-forward="false" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/service/impl/UserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/dao/GoodsDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="74" column="41" lean-forward="true" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
+        <state relative-caret-position="1015">
+          <caret line="38" column="16" lean-forward="false" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-web.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="16" column="15" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="16" selection-end-column="15" />
+        <state relative-caret-position="1073">
+          <caret line="37" column="30" lean-forward="false" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/campus/dao/GoodsDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="65" column="35" lean-forward="true" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/controller/GoodsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7904">
+          <caret line="266" column="51" lean-forward="false" selection-start-line="266" selection-start-column="51" selection-end-line="266" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/GoodsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1856">
+          <caret line="58" column="16" lean-forward="false" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1728">
+          <caret line="54" column="36" lean-forward="true" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/dao/GoodsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1728">
+          <caret line="57" column="32" lean-forward="false" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/service/impl/GoodsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1696">
+          <caret line="67" column="62" lean-forward="true" selection-start-line="67" selection-start-column="62" selection-end-line="67" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/service/GoodsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1504">
+          <caret line="47" column="30" lean-forward="true" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/controller/GoodsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9360">
+          <caret line="260" column="71" lean-forward="false" selection-start-line="260" selection-start-column="71" selection-end-line="260" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/GoodsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/dao/GoodsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1944">
+          <caret line="57" column="32" lean-forward="false" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/service/impl/GoodsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="67" column="49" lean-forward="false" selection-start-line="67" selection-start-column="49" selection-end-line="67" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/service/GoodsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1728">
+          <caret line="54" column="36" lean-forward="false" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="43" column="31" lean-forward="true" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/campus/dao/GoodsDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="49" column="44" lean-forward="false" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/dao/GoodsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/GoodsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="84" column="13" lean-forward="false" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/service/GoodsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="13" column="42" lean-forward="false" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/controller/GoodsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6720">
+          <caret line="273" column="0" lean-forward="false" selection-start-line="273" selection-start-column="0" selection-end-line="273" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/service/impl/GoodsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1540">
+          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/campus/utils/MD5Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1127,7 +1154,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>1.8 (1)</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1152,7 +1179,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: junit:junit:4.11</last-edited>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
